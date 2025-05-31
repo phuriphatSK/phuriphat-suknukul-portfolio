@@ -14,21 +14,21 @@ import {
 const projects = [
   {
     id: 1,
+    year: 2025,
+    title: "Project E-Commerce",
+    description: "Full Stack E-Commerce App Using Next.js",
+    image: project3,
+  },
+  {
+    id: 2,
     year: 2024,
     title: "Project Poker",
     description: "Intern Front-ent Project Poker with React TypeScript",
     image: project1,
   },
   {
-    id: 2,
-    year: 2023,
-    title: "Project E-Commerce",
-    description: "Full Stack E-Commerce App Using Next.js",
-    image: project3,
-  },
-  {
     id: 3,
-    year: 2022,
+    year: 2023,
     title: "UncleRuengKitchen",
     description: "Academic Project RestaurantWeb with React.js and express.js",
     image: project2,
