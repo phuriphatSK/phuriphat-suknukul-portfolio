@@ -76,7 +76,7 @@ export const Hero = () => {
             border,
             boxShadow,
           }}
-          className="flex w-fit item-center gap-2 rounded-full px-4 py-2"
+          className="flex w-fit item-center gap-2 rounded-full px-4 py-2 cursor-pointer"
           whileHover={{
             scale: 1.015,
           }}

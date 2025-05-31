@@ -27,24 +27,18 @@ const services = [
   },
   {
     id: 5,
-    title: "Project Management",
-    description: "Coordinating and managing projects effectively.",
-    icon: "🧭",
-  },
-  {
-    id: 6,
     title: "Technical Writing",
     description: "Writing clear and concise technical documentation.",
     icon: "📝",
   },
   {
-    id: 7,
+    id: 6,
     title: "Social Media Management",
     description: "Building and managing social media accounts.",
     icon: "📱",
   },
   {
-    id: 8,
+    id: 7,
     title: "Video Editing",
     description: "Editing and refining videos for various purposes.",
     icon: "🎥",
@@ -55,7 +49,9 @@ export const Services = () => {
     <section className="text-white py-20">
       <div className="container mx-auto flex flex-col md:flex-row">
         <div className="md:w-1/4 pr-8 mb-12 md:mb-0">
-          <h2 className="text-6xl font-extrabold sticky top-20">SERVICES</h2>
+          <h2 className="text-6xl text-purple-300 font-extrabold sticky top-20">
+            SERVICES
+          </h2>
         </div>
         <div className="md:w-3/4">
           {services.map((service) => (
